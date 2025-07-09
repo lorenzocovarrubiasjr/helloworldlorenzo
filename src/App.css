@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  padding: 2rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.tw-text {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.blue {
+  color: blue;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.email-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  margin: 12px;
+  font-size: .8rem;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, #6366f1, #3b82f6);
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.25);
+  transition: all 0.2s ease;
+}
+
+.email-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(59, 130, 246, 0.4);
+}
+
+.email-button:active {
+  transform: scale(0.98);
+  box-shadow: 0 6px 18px rgba(59, 130, 246, 0.3);
+}
