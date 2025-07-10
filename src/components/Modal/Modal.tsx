@@ -22,7 +22,7 @@ export const Modal = ({ children, title, isOpen, onClose }: ModalProps) => {
 
     return createPortal(
         <div className={`overlay ${isOpen ? 'show' : ''}`}>
-            <div className="backdrop" onClick={onClose}>
+            <div className="backdrop" >
                 <div className="modal-3d">
                     <div className="modal-header">
                         <h2 className="title">{title}</h2>
